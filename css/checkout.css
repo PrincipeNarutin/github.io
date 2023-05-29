@@ -1,0 +1,104 @@
+.margin-top-50 {
+    margin-top: 70px;
+}
+
+.holder-countdown {
+    width: 100%;
+    padding: 15px 9px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.holder-countdown {
+    background: #E1E1E1;
+}
+
+.f13 {
+    font-size: 15px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.txt-cabecalho {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+
+body {
+    background-color: #F4F6F8;
+}
+
+.bksobre li,
+.bksobre ul {
+    width: 100%;
+    max-width: 250px;
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+    .bksobre h2.block {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .logo {
+        height: 49px;
+    }
+
+    .bksobre h2.border:after {
+        left: 125px;
+    }
+
+    section.sobre h3 {
+        font-size: 15px;
+    }
+
+    #aparecer_aqui {
+        width: 100% !important;
+        height: 64px;
+        line-height: 0px;
+    }
+
+    .bksobre li,
+    .bksobre ul {
+        max-width: 220px;
+    }
+
+
+}
+
+.borda-verde{
+    color: #fff;
+    background-color: #36B376;
+}
+
+.borda-verde:focus{
+    color: #121212;
+    background-color: #36B376;
+}
+
+
+.esconder{
+    display: none;
+}
+
+.box-pagamento{
+    padding: 10px;
+}
+
+.desconto{
+    position: absolute;
+    padding: 4px 4px 3px;
+    right: 12px;
+    background: #725bc2;
+    color: #FFF;
+    border-radius: 2px;
+}

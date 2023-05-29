@@ -1,0 +1,56 @@
+ #popup_termos .popup-container {
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    z-index: 15;
+    background-color: #eaeaea;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.black-background-popup {
+    z-index: 10;
+}
+#close_btn_popup {
+    position: absolute;
+    z-index: 15;
+    left: 98%;
+    top: -18px
+}
+#close_btn_popup  img {
+    height: 30px;
+    width: 30px;
+}
+#popup_termos p {
+    font-family: inherit;
+}
+#popup_termos .popup-container ul {
+    padding: 0;
+    margin: 0;
+}
+#popup_termos .popup-container ul li:before {
+    color:black;
+    padding:2px;
+    border:none;
+    text-align: center;
+    content: "\E074";
+}
+#popup_termos .popup-container ul li {
+    margin-bottom: 20px;
+}
+#popup_termos .popup-container .circle-outside {
+    height: 30px;
+    width: 30px;
+    background: black;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 27px;
+}
+#popup_termos .popup-container .circle-outside .x {
+    color: white;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
